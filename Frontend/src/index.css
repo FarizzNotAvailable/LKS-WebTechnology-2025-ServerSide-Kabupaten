@@ -1,0 +1,41 @@
+@import "tailwindcss";
+*{
+  @apply border-gray-200
+}
+h1{
+  @apply text-5xl
+}
+h2{
+  @apply font-semibold text-2xl
+}
+h3{
+  @apply font-semibold text-xl
+}
+a{
+  @apply font-semibold
+}
+p{
+  @apply text-gray-600
+}
+select{
+  @apply py-1 px-3
+}
+label{
+  @apply mr-3
+}
+
+input{
+  @apply border-2 border-gray-200 rounded-sm p-3 outline-none focus:border-blue-600 transition-all
+}
+textarea{
+  @apply border-2 p-3 h-40 focus:border-blue-600 transition-all outline-none w-full
+}
+button{
+  @apply bg-blue-600 text-white rounded-sm p-2 w-full
+}
+.dangerbtn{
+  @apply bg-red-600 text-white rounded-sm p-2 w-full
+}
+.goodbtn{
+  @apply bg-green-600 text-white rounded-sm p-2 w-full
+}
