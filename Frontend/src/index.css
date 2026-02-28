@@ -37,5 +37,5 @@ button{
   @apply bg-red-600 text-white rounded-sm p-2 w-full
 }
 .goodbtn{
-  @apply bg-green-600 text-white rounded-sm p-2 w-full
+  @apply bg-green-600 text-white rounded-sm p-2 w-full opacity-50
 }
